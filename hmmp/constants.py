@@ -17,7 +17,7 @@
 from enum import IntEnum, IntFlag
 
 # Protocol constants
-MAGIC_NUMBER = 0x2026
+MAGIC_NUMBER = 0x5153
 PROTOCOL_VERSION = 0x07
 HEADER_SIZE = 16
 MAX_PAYLOAD_SIZE = 4_294_967_295

@@ -33,7 +33,7 @@ from hmmp import HMMPClient, ClientConfig, ServiceInstance
 async def main():
     config = ClientConfig(
         host="127.0.0.1",
-        port=8848,
+        port=8847,
         access_key="my-app",
         secret_key="my-secret",
     )

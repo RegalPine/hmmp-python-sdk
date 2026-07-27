@@ -98,7 +98,7 @@ variable-length Payload.
 ```
 
 **Magic Number**: 16 bits
-: MUST be fixed to 0x2026. Packets failing to match this constant SHALL be
+: MUST be fixed to 0x5153. Packets failing to match this constant SHALL be
   dropped immediately, and the underlying TCP connection MUST be terminated.
 
 **Version**: 8 bits

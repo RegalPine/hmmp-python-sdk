@@ -89,7 +89,7 @@ class ClientConfig:
     """HMMP client configuration."""
 
     host: str = "127.0.0.1"
-    port: int = 8848
+    port: int = 8847
     client_id: str = ""
     access_key: str = ""
     secret_key: str = ""
